@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         idToolBar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Cliquei no menu hamburger",Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(),"Cliquei no menu hamburger",Toast.LENGTH_SHORT).show();
             }
         });
 
