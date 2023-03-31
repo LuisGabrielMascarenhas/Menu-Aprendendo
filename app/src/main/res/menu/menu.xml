@@ -21,5 +21,10 @@
         android:icon="@drawable/baseline_exit_to_app"
         android:title="Sair"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/baseline_save_alt"
+        android:title="Salvar"
+        app:showAsAction="ifRoom" />
 
 </menu>
